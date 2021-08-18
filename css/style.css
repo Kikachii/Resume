@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    box-sizing: border-box;
+   
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: radial-gradient(#c7c7c7 35%, #c7c7c7 75%);
+
+    
+}
+.container {
+    background-color:white;
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    margin: 50px;  
+}
+
+/* header css */
+.head{
+    /* background-color:rgba(177, 131, 15, 0.938); */
+    width: 100%;
+    margin-left: 0;
+    height: 400px;
+    padding: 50px;
+    border-bottom: 7px solid rgba(177, 131, 15, 0.938);
+    border-bottom-right-radius: 100px;
+    font-weight: 600;
+} 
+
+.head img{
+    border: 1px solid rgba(177, 131, 15, 0.938);
+    border-radius: 50px;
+}
+.head button{
+   padding: 10px;
+   border: 1px solid rgba(177, 131, 15, 0.938);
+   border-radius: 10px;
+   background-color:rgba(177, 131, 15, 0.938) ;
+    
+}
+.head .left-col{
+    padding: 2em;
+    border-left: 4px solid rgba(177, 131, 15, 0.938) ;
+}
+
+.main{
+    margin: 20px;
+}
+/* education css */
+.education{
+    padding-top: 40px;
+    height: 350px;
+}
+.education p{
+    color: rgba(177, 131, 15, 0.938);
+}
+
+/* experience css */
+
+.experience{
+    height: 320px;
+    padding-top: 15px;
+  
+}
+.experience h2::after {
+    content: "";
+    background: rgba(177, 131, 15, 0.938);
+    display: block;
+    width: 100%;
+    height: 3px;
+    /* margin: 10px auto; */
+}
+
+.about{
+    margin-top: 40px;
+}
+.about h2::after {
+    content: "";
+    background:rgba(177, 131, 15, 0.938);
+    display: block;
+    width: 100%;
+    height: 3px;
+    line-height: 5px;
+    /* margin: 10px auto; */
+}
+
+/* education css */
+.education h3::after {
+    content: "";
+    background:rgba(177, 131, 15, 0.938);
+    display: block;
+    width: 100%;
+    height: 3px;
+    /* margin: 10px auto; */
+}
+
+/* language css */
+
+.language h3::after {
+    content: "";
+    background: rgba(177, 131, 15, 0.938);
+    display: block;
+    width: 100%;
+    height: 3px;
+    /* margin: 10px auto; */
+}
+/* Skills css */
+
+ .skills  h2::after {
+    content: "";
+    background:rgba(177, 131, 15, 0.938);;
+    display: block;
+    width: 100%;
+    height: 3px;
+    /* margin: 10px auto; */
+} 
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h5{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background:whitesmoke;
+}
+
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(0, 225, 255);
+}
+
+/* interest css */
+.interest ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.interest ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.interest h2::after {
+    content: "";
+    background:rgba(177, 131, 15, 0.938);;
+    display: block;
+    width: 100%;
+    height: 3px;
+    /* margin: 10px auto; */
+}
+
+.interest ul li .fas{
+    color: rgb(0, 225, 255);
+    font-size: 18px;
+    width: 20px;
+}
+
+/* footer css */
+
+.footer{
+    background-color: rgba(177, 131, 15, 0.938);
+    bottom: 0;
+    position: fixed;
+    width: 82%;
+    height: 50px;
+    color:white;
+    
+}
+.footer img{
+    padding: 5px;
+}
+.copyright-text{
+  text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    .container{
+        margin: 20px;
+        
+    }
+    .head{
+        height: 600px;
+        padding: 50px; 
+    }
+    .head img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .head h1{
+        margin-top: 10px;
+    }
+    .head .left-col{
+       height: 330px;
+       padding: 15px;
+       
+    } 
+    .contactInfo{
+        margin: 10px;
+    }
+    .language h3{
+        margin-top: 60px;
+    }
+    
+    .skills .box{
+        grid-template-columns: 5 1fr;
+       
+    }
+    
+    .skills h2{
+        margin-top: 150px ;
+    }
+    
+    
+    .interest ul{ 
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    
+    .footer{
+        width: 100%;
+
+    }
+    
+}
+
+
+
+
+    
+
+
+
+
