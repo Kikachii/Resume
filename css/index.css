@@ -40,7 +40,7 @@ header{
 }
 .text-area{
     font-size: 70px;
-    font-family: sans-serif;
+    font-family: poppins;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -89,8 +89,12 @@ header{
 
 @media (max-width:600px){
     
-    .text-area{
-        font-size: 30px;
+     .text-area{
+        font-size: 29px;
+        font-weight: 700;
 
+    }
+    .banner-text h4{
+        font-size: 20px;
     }
 }
