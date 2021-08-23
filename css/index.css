@@ -54,17 +54,19 @@ header{
     background-color: rgba(177, 131, 15, 0.938);
     border-color: rgba(177, 131, 15, 0.938);
     color: #000;
-    animation: moveright 1s linear 1;
+    animation: moveright 1s linear;
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 @keyframes moveright{
     0%{
         transform: translateX(-200px) scale(1);
+        visibility: visible;
     }
     
     100%{
         transform: translateX(0) scale(1);
+        visibility: visible;
         
        
     }
